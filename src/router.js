@@ -6,7 +6,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
-  base: process.env.BASE_URL,
+  base: process.env.BASE_URL, // 会和 vue.config.js 中的 publicPath 选项相符，即你的应用会部署到的基础路径
   routes: [
     {
       path: "/",
