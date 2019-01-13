@@ -3,6 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./plugins/iview.js";
+import ajax from "./http";
+import "./assets/index.less";
+
+Vue.prototype.$axios = ajax;
 
 Vue.config.productionTip = false;
 
