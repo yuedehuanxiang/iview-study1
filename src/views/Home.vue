@@ -21,18 +21,19 @@ export default {
   },
   components: {},
   mounted() {
-    this.$axios({
-      method: "get",
-      url: "https://www.easy-mock.com/mock/5bc527578dab123bdd200d25/iview/list"
-    }).then(res => {
-      console.log(res.data);
-    });
+    // this.$axios({
+    //   method: "get",
+    //   url: "https://www.easy-mock.com/mock/5bc527578dab123bdd200d25/iview/list"
+    // }).then(res => {
+    //   console.log(res.data);
+    // });
   }
 };
 </script>
 
 <style lang="less" scoped>
 .home {
+  text-align: center;
   p {
     color: red;
   }
