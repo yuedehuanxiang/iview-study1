@@ -1,11 +1,8 @@
 <template>
-  <div class="about">about</div>
+  <dev-article>app</dev-article>
 </template>
 <script>
 export default {};
 </script>
 <style lang="less" scoped>
-.about {
-  text-align: center;
-}
 </style>
