@@ -74,6 +74,10 @@ export default new Router({
     {
       path: "/table11",
       component: () => import("./test/table/table11.vue")
+    },
+    {
+      path: "/table12",
+      component: () => import("./test/table/table12.vue")
     }
   ]
 });
