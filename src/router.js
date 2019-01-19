@@ -42,6 +42,38 @@ export default new Router({
     {
       path: "/table3",
       component: () => import("./test/table/table3.vue")
+    },
+    {
+      path: "/table4",
+      component: () => import("./test/table/table4.vue")
+    },
+    {
+      path: "/table5",
+      component: () => import("./test/table/table5.vue")
+    },
+    {
+      path: "/table6",
+      component: () => import("./test/table/table6.vue")
+    },
+    {
+      path: "/table7",
+      component: () => import("./test/table/table7.vue")
+    },
+    {
+      path: "/table8",
+      component: () => import("./test/table/table8.vue")
+    },
+    {
+      path: "/table9",
+      component: () => import("./test/table/table9.vue")
+    },
+    {
+      path: "/table10",
+      component: () => import("./test/table/table10.vue")
+    },
+    {
+      path: "/table11",
+      component: () => import("./test/table/table11.vue")
     }
   ]
 });
