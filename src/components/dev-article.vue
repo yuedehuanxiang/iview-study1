@@ -57,7 +57,7 @@
     </Header>
     <Layout>
       <Sider class="sider" width="240" collapsible v-model="isCollapsed" :class="{'sider-hide': isCollapsed}">
-        <Menu class="sider-menu" theme="dark">
+        <Menu class="sider-menu" active-name="option3" theme="dark">
           <MenuItem name="option1">
             <Icon type="ios-search"></Icon>
             <span>option 1</span>

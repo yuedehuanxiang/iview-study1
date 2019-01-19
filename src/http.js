@@ -25,7 +25,7 @@ function endLoading() {
 }
 
 const ajax = axios.create({
-  baseURL: "",
+  baseURL: "https://www.easy-mock.com/mock/5bc527578dab123bdd200d25/iview",
   timeout: 4000
 });
 
@@ -47,7 +47,7 @@ ajax.interceptors.response.use(
     // 结束加载动画
     setTimeout(() => {
       endLoading();
-    }, 1500);
+    }, 500);
     // endLoading();
     return response;
   },

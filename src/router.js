@@ -30,6 +30,18 @@ export default new Router({
     {
       path: "/",
       redirect: "/app"
+    },
+    {
+      path: "/table1",
+      component: () => import("./test/table/table1.vue")
+    },
+    {
+      path: "/table2",
+      component: () => import("./test/table/table2.vue")
+    },
+    {
+      path: "/table3",
+      component: () => import("./test/table/table3.vue")
     }
   ]
 });
