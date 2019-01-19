@@ -1,5 +1,6 @@
 <template>
   <div style="padding: 32px 64px">
+    <h1>slot-scope的简单使用实例</h1>
     <todo-list :list="list">
       <template slot-scope="props">
         <span v-if="props.todo.checked">✅</span>
