@@ -6,6 +6,7 @@
   </div>
 </template>
 <script>
+import TableCell from "../../components/table-cell";
 export default {
   data() {
     return {
@@ -29,44 +30,11 @@ export default {
         {
           title: "操作",
           render: (h, { row }) => {
-            return h("Select", [
-              h(
-                "Option",
-                {
-                  props: {
-                    value: row.name
-                  }
-                },
-                row.name
-              ),
-              h(
-                "Option",
-                {
-                  props: {
-                    value: row.age
-                  }
-                },
-                row.age
-              ),
-              h(
-                "Option",
-                {
-                  props: {
-                    value: row.address
-                  }
-                },
-                row.address
-              ),
-              h(
-                "Option",
-                {
-                  props: {
-                    value: row.date
-                  }
-                },
-                row.date
-              )
-            ]);
+            return h(TableCell, {
+              props: {
+                row
+              }
+            });
           }
         }
       ],
