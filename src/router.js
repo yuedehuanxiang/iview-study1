@@ -78,6 +78,42 @@ export default new Router({
     {
       path: "/table12",
       component: () => import("./test/table/table12.vue")
+    },
+    {
+      path: "/form1",
+      component: () => import("./test/form/form1.vue")
+    },
+    {
+      path: "/form2",
+      component: () => import("./test/form/form2.vue")
+    },
+    {
+      path: "/form3",
+      component: () => import("./test/form/form3.vue")
+    },
+    {
+      path: "/form4",
+      component: () => import("./test/form/form4.vue")
+    },
+    {
+      path: "/form5",
+      component: () => import("./test/form/form5.vue")
+    },
+    {
+      path: "/form6",
+      component: () => import("./test/form/form6.vue")
+    },
+    {
+      path: "/form7",
+      component: () => import("./test/form/form7.vue")
+    },
+    {
+      path: "/form8",
+      component: () => import("./test/form/form8.vue")
+    },
+    {
+      path: "/form9",
+      component: () => import("./test/form/form9.vue")
     }
   ]
 });
