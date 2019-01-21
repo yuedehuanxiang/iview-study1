@@ -114,6 +114,18 @@ export default new Router({
     {
       path: "/form9",
       component: () => import("./test/form/form9.vue")
+    },
+    {
+      path: "/component1",
+      component: () => import("./test/components/component1.vue")
+    },
+    {
+      path: "/component2",
+      component: () => import("./test/components/component2.vue")
+    },
+    {
+      path: "/component3",
+      component: () => import("./test/components/component3.vue")
     }
   ]
 });
