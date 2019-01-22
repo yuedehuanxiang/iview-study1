@@ -126,6 +126,30 @@ export default new Router({
     {
       path: "/component3",
       component: () => import("./test/components/component3.vue")
+    },
+    {
+      path: "/component4",
+      component: () => import("./test/components/component4.vue")
+    },
+    {
+      path: "/component5",
+      component: () => import("./test/components/component5.vue")
+    },
+    {
+      path: "/component6",
+      component: () => import("./test/components/component6.vue")
+    },
+    {
+      path: "/component7",
+      component: () => import("./test/components/component7.vue")
+    },
+    {
+      path: "/component8",
+      component: () => import("./test/components/component8.vue")
+    },
+    {
+      path: "/component9",
+      component: () => import("./test/components/component9.vue")
     }
   ]
 });
