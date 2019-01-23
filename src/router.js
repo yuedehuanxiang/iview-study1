@@ -154,6 +154,10 @@ export default new Router({
     {
       path: "/component10",
       component: () => import("./test/components/component10.vue")
+    },
+    {
+      path: "/component11",
+      component: () => import("./test/components/component11.vue")
     }
   ]
 });
