@@ -150,6 +150,10 @@ export default new Router({
     {
       path: "/component9",
       component: () => import("./test/components/component9.vue")
+    },
+    {
+      path: "/component10",
+      component: () => import("./test/components/component10.vue")
     }
   ]
 });
